@@ -1,4 +1,4 @@
-/*var express = require('express');
+var express = require('express');
 var exphbs  = require('express-handlebars');
 var app = express();
 var os = require("os");
@@ -8,7 +8,7 @@ app.engine('handlebars', exphbs.engine({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 app.use(express.static('static'));
 app.use(morgan('combined'));
-*/
+
 
 var port = process.env.PORT || 8080;
 var message = process.env.MESSAGE || "WebAssembly is the future with AKK and Bright+Happy+Great :)";

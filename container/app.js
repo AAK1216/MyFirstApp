@@ -11,7 +11,7 @@ app.use(morgan('combined'));
 */
 
 var port = process.env.PORT || 8080;
-var message = process.env.MESSAGE || "WebAssembly is the future with AKK and Bright :)";
+var message = process.env.MESSAGE || "WebAssembly is the future with AKK and Bright+Happy+Great :)";
 
 app.get('/', function (req, res) {
     res.render('home', {
